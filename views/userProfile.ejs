@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+
+    form{
+        margin-top: 1in;
+        width: 400px;
+        height: 430px;
+        border: 1px solid brown;
+        padding: 10px;
+
+    }
+
+    button{
+        background-color: pink;
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+
+  p{
+      font-size: 16px;
+      font-weight: bold;
+      color: purple;
+  }
+</style>
+<body  style=" background: #ffe6ff;">
+    
+
+<center>
+
+    <form action=""> 
+        <h1>User Profile</h1>
+    
+    
+        <h3>First name:</h3> <p><span><%= foundResults.firstname %></span></p>
+        <h3>Last name:</h3> <p><span><%= foundResults.lastname %></span></p>
+        <h3>Email:</h3> <p><span><%= foundResults.email %></span></p>
+        <h3>Address:</h3> <p><span><%= foundResults.address %></span></p>
+    
+        <div id="logout"><a href="/login"><button>Logout</button></a></div>
+    
+    
+     </form>
+
+</center>
+
+    
+
+
+    
+</body> 
+</html>

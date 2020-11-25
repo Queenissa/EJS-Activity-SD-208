@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/public/css/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body style="background: #ffe6ff;">
+
+    <center>
+        <form class="text-center border border-light p-5" action="/login" method="POST" id="myForm">
+          
+    
+            <p class="h4 mb-4">Login</p>
+        
+            <!-- Username -->
+            <input type="email" id="username" name="email" class="form-control mb-4" placeholder="Email" autocomplete="off">
+        
+        
+            <!-- Password -->
+            <input type="password" id="password" name="password" class="form-control mb-4" placeholder="Password" autocomplete="off">
+           
+        
+            
+        
+            <!-- Sign in button -->
+            <button class="btn btn-block my-4" type="submit" id="myBtn">Submit</button>
+        
+            <!-- Register -->
+            <p>Don't have an account?
+                <a href="/register">Sign up</a>
+            </p>
+        
+            
+        
+        </form>
+        
+    </center>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+#myForm{
+    width: 450px;
+    height: 400px;
+    background: linear-gradient(to right, #ffccff 0%, #ff99cc 75%);
+    border-radius: 7px;
+    margin-top: 1in;
+}
+
+
+#myBtn{
+    background: linear-gradient(to left, #ff99ff 0%, #ff3399 105%);
+    border-radius: 10px;
+}
+
+.form-control:focus{
+
+    border: 1px solid solid rgb(255, 102, 255) !important;
+    box-shadow: 0 0 3px solid rgb(255, 102, 255) !important;
+    -moz-box-shadow: 0 0 3px solid rgb(255, 102, 255)!important;
+    -webkit-box-shadow: 0 0 3px solid rgb(255, 102, 255) !important;   
+}
+
+.btn:hover {background-color: linear-gradient(to left, #ffccff 0%, #ff00ff 105%);}

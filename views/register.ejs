@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/public/css/register.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body style=" background: #ffe6ff;">
+    
+    <center>
+        <form class="text-center border border-light p-5" action="/register" method="POST" id="myForm">
+    
+            <p class="h4 mb-4">Sign up</p>
+        
+
+            <input type="text"  name="firstname" class="form-control mb-4" placeholder="First name" autocomplete="off">
+
+            <input type="text" name="lastname" class="form-control mb-4" placeholder="Last name" autocomplete="off">
+
+            <input type="email" name="email" class="form-control mb-4" placeholder="Email" autocomplete="off">
+        
+            <input type="text" name="address" class="form-control mb-4" placeholder="Address" autocomplete="off">
+
+            <input type="password" id="password" name="password" class="form-control mb-4" placeholder="Password" autocomplete="off">
+        
+            
+        
+            <!-- Sign in button -->
+            <button class="btn btn-block my-4" type="submit" id="myBtn">Submit</button>
+        
+            <!-- Register -->
+            <p>Already have an account?
+                <a href="/login">Login</a>
+            </p>
+        
+            
+        
+        </form>
+        
+    </center>
+</body>
+</html>
